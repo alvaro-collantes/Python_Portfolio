@@ -50,19 +50,22 @@ Comprehensive exploratory data analysis of the most streamed songs on Spotify in
 ```
 spotify-2024-analysis/
 ├── 📂 Data/
+│   ├── spotify_raw_backup.csv
 │   ├── spotify_cleaned.csv
 │   └── Most Streamed Spotify Songs 2024.csv
 ├── 📂 scripts/
 │   ├── 01_data_loading_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_exploratory_data_analysis.ipynb
-│   └── 04_insights_conclusions.ipynb
 ├── 📂 Visualizations/
-│   ├── distribution_analysis.png
+│   ├── artists_popularity.png
 │   ├── correlation_heatmap.png
-│   └── platform_comparison.png
+│   └── distribution_analysis.png
+│   ├── platform_comparison.png
+│   ├── temporal_trends.png
+│   └── top_artists_streams.png
 ├── 📂 Documentation/
-│   ├── EDA_methodology.md
+│   ├── cleaning_documentation.md
 │   └── findings_summary.md
 ├── requirements.txt
 └── README.md
@@ -100,4 +103,5 @@ This is my first comprehensive Python data analysis project, focusing on music s
 - **Business Intelligence**: Insight generation and data-driven recommendations
 
 ---
+
 **Note**: This analysis is for educational and portfolio demonstration purposes. All findings are based on publicly available streaming data and should be considered alongside additional market research for business decisions.
